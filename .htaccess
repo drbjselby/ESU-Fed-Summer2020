@@ -1,1 +1,6 @@
-
+AuthName "ESU Credit Workshop"
+AuthType Basic
+<Files "esugradcredit.html">
+AuthUserFile /.htpasswd
+Require valid-user
+</Files>
